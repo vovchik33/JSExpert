@@ -1,15 +1,24 @@
-(function (win) {
-    var params = {
-        states: {
-            url: "/",
-            template: "temlate.js"
-        }
+(function () {
+    function showType(param) {
+        console.log("type: "+typeof param);
     };
-    function setStates(params) {
-        if (win && !win.params) {
-            win.params = params;
-        }
+    function showValue(param) {
+        console.log("value: "+param);
     };
-    setStates();
-    console.log(params.states.template);
-})(window);
+    function showInfo(param) {
+        showType(param);
+        showValue(param);
+    };
+
+    var x = 1;
+    showInfo(x);
+
+    x=String(x);
+    showInfo(x);
+
+    x=Boolean(x);
+    showInfo(x);
+
+    x=Number(x);
+    showInfo(x);
+})();

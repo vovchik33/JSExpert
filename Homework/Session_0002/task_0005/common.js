@@ -1,15 +1,8 @@
-(function (win) {
-    var params = {
-        states: {
-            url: "/",
-            template: "temlate.js"
-        }
-    };
-    function setStates(params) {
-        if (win && !win.params) {
-            win.params = params;
-        }
-    };
-    setStates();
-    console.log(params.states.template);
-})(window);
+(function () {
+    var variable = 0;
+    variable++;
+    variable++;
+    variable++;
+    z = x = variable;
+    console.log(x,z,variable);
+})();
