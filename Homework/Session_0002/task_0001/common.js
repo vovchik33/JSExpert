@@ -1,8 +1,12 @@
+/**
+ * Пример использования внешнего скрипта с асинхронной подгрузкой (используя аттрибут async)
+ * vovchik33@gmail.com
+ */
 (function (win) {
     var params = {
         states: {
             url: "/",
-            template: "temlate.js"
+            template: "template.js"
         }
     };
     function setStates(params) {
