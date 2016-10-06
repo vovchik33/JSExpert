@@ -1,4 +1,4 @@
-(function (win) {
+(function () {
     function showType(param) {
         console.log("type: "+typeof param);
     };
@@ -19,4 +19,4 @@
     showInfo(x);
     x = null;
     showInfo(x);
-})(window);
+})();

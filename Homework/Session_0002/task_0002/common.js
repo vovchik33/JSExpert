@@ -1,4 +1,4 @@
-(function (win) {
+(function () {
     function showParams() {
         for(item of arguments) {
             console.log(item);
