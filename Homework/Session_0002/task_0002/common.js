@@ -5,7 +5,8 @@
         }
     };
     
-    var x=y=z=0;
+    var x,y,z;
+    x=y=z=0;
     
     showParams(x,y,z);
     
